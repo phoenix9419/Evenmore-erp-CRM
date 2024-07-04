@@ -16,7 +16,7 @@ const langDirection=useSelector(selectLangDirection)
     <div style={{direction:langDirection}}>
       <Form.Item
         label={translate('language')}
-        name="idurar_app_language"
+        name="evenmore_app_language"
         rules={[
           {
             required: true,
@@ -51,7 +51,7 @@ const langDirection=useSelector(selectLangDirection)
       </Form.Item>
       <Form.Item
         label={translate('country')}
-        name="idurar_app_country"
+        name="evenmore_app_country"
         rules={[
           {
             required: true,
@@ -85,7 +85,7 @@ const langDirection=useSelector(selectLangDirection)
       </Form.Item>
       <Form.Item
         label={translate('Date Format')}
-        name="idurar_app_date_format"
+        name="evenmore_app_date_format"
         rules={[
           {
             required: true,
@@ -147,7 +147,7 @@ const langDirection=useSelector(selectLangDirection)
       </Form.Item>
       <Form.Item
         label={translate('email')}
-        name="idurar_app_company_email"
+        name="evenmore_app_company_email"
         rules={[
           {
             required: true,

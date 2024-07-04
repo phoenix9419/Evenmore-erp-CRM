@@ -15,10 +15,10 @@ const resetPassword = async (req, res, { userModel }) => {
 
   if (!user.enabled && user.role === 'owner') {
     const settings = useAppSettings();
-    const idurar_app_email = settings['idurar_app_email'];
-    const idurar_base_url = settings['idurar_base_url'];
+    const evenmore_app_email = settings['evenmore_app_email'];
+    const evenmore_base_url = settings['evenmore_base_url'];
 
-    const url = checkAndCorrectURL(idurar_base_url);
+    const url = checkAndCorrectURL(evenmore_base_url);
 
     const link = url + '/verify/' + user._id + '/' + databasePassword.emailToken;
 
@@ -26,7 +26,7 @@ const resetPassword = async (req, res, { userModel }) => {
       email,
       name: user.name,
       link,
-      idurar_app_email,
+      evenmore_app_email,
       emailToken: databasePassword.emailToken,
     });
 

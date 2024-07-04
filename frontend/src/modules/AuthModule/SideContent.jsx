@@ -14,7 +14,7 @@ export default function SideContent() {
   return (
     <Content
       style={{
-        padding: '150px 30px 30px',
+        padding: '120px 30px 30px',
         width: '100%',
         maxWidth: '400px',
         margin: '0 auto',
@@ -24,10 +24,10 @@ export default function SideContent() {
       <div style={{ width: '100%' }}>
         <img
           src={logo}
-          alt="IDURAR ERP CRM"
-          style={{ margin: '0 auto 40px', display: 'block' }}
+          alt="EVENMORE ERP CRM"
+          style={{ margin: '0 auto 30px', display: 'block' }}
           height={63}
-          width={220}
+          width={270}
         />
         <div className="space40"></div>
         <Title level={3}>{translate('Manage your company with')} :</Title>

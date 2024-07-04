@@ -25,7 +25,7 @@ const SelfHostedPlan = () => {
           size="large"
           block
           onClick={() => {
-            window.open('https://cloud.idurarapp.com/pricing');
+            window.open('https://cloud.evenmoreapp.com/pricing');
           }}
         >
           Purchase Now
@@ -47,7 +47,7 @@ export default function UpgradeButton() {
       //   <Button
       //     type="primary"
       //     onClick={() => {
-      //       window.open(`https://www.idurarapp.com/contact-us/`);
+      //       window.open(`https://www.evenmoreapp.com/contact-us/`);
       //     }}
       //   >
       //     {translate('Contact us')}
@@ -75,5 +75,5 @@ export default function UpgradeButton() {
 }
 
 console.log(
-  '🚀 Welcome to IDURAR ERP CRM! Did you know that we also offer commercial customization services? Contact us at hello@idurarapp.com for more information.'
+  '🚀 Welcome to EVENMORE ERP CRM! Did you know that we also offer commercial customization services? Contact us at hello@evenmoreapp.com for more information.'
 );

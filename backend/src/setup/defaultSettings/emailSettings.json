@@ -2,19 +2,19 @@
   {
     "settingCategory": "email_settings",
     "settingKey": "email_domain",
-    "settingValue": "idurarapp.com",
+    "settingValue": "evenmoreapp.com",
     "valueType": "string"
   },
   {
     "settingCategory": "email_settings",
     "settingKey": "email_reply_to",
-    "settingValue": "reply@idurarapp.com",
+    "settingValue": "reply@evenmoreapp.com",
     "valueType": "string"
   },
   {
     "settingCategory": "email_settings",
     "settingKey": "email_from",
-    "settingValue": "IDURAR ERP CRM",
+    "settingValue": "EVENMORE ERP CRM",
     "valueType": "string"
   }
 ]

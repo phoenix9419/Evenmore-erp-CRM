@@ -1,7 +1,7 @@
 const useAppSettings = () => {
   let settings = {};
-  settings['idurar_app_email'] = 'noreply@idurarapp.com';
-  settings['idurar_base_url'] = 'https://cloud.idurarapp.com';
+  settings['evenmore_app_email'] = 'noreply@evenmoreapp.com';
+  settings['evenmore_base_url'] = 'https://cloud.evenmoreapp.com';
   return settings;
 };
 
